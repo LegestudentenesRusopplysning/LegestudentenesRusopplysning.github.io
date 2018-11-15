@@ -197,10 +197,6 @@ header {
     top: 0;
 }
 
-header li {
-    color: #05e1ff;
-}
-
 header .logo img {
     height: 1em;
     position: relative;
