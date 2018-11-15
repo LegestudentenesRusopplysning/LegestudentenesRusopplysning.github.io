@@ -195,6 +195,7 @@ header {
     z-index: 999;
     width: 100%;
     top: 0;
+    color: #05e1ff;
 }
 
 header .logo img {
