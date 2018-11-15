@@ -64,7 +64,7 @@ input[type="checkbox"] + label {
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color: #FF715B;
+    color: #05e1ff;
     font-size: 16px;
     margin-bottom: 2em;
 }
@@ -205,7 +205,7 @@ header .logo img {
 
 /* logo */
 .logo {
-    color: #FF715B;
+    color: #05e1ff;
     margin: auto;    
     margin-top: 0.08em;
 }
