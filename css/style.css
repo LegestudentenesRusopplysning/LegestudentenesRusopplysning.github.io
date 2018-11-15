@@ -11,11 +11,11 @@ body {
     position: relative;
     min-height: 100vh;
     box-sizing: border-box;
-    /* needs to be the same as the height of the header */
+    /* needs to be the same as the height of the header #05e1ff*/
     padding-top: 3em;
     /* set to height of footer */
     padding-bottom: 157px;
-    color: #171717;
+    color: #05e1ff;
 }
 
 .text-center {
