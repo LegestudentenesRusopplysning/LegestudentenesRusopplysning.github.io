@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacts</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Droid+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="logo.png">
+    </head>
+    <body class="Home">
+        <!-- header -->
+        <header>
+            <!-- loaded with js from /shared-html/header.html -->
+        </header>
+
+        <!-- content -->
+        <div class="contact-content content">
+            <div class="contact-left"></div>
+            <div class="contact-right">
+                <div class="contact-title">
+                    <h2>Hello there!</h2>
+                    <h3>We look forward to hearing from you!</h3>
+                </div>
+                <div class="contact-form">
+                    <aside>
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-50p">
+                                    <input name="first-name" type="text" class="form-control" placeholder="First name" required>
+                                </div>
+                                <div class="col-50p">
+                                    <input name="last-name" type="text" class="form-control" placeholder="Last name" required>
+                                </div>
+                            </div>
+                            <input name="email" type="email" class="form-control" placeholder="Your email adress" required>
+                            <textarea name="message"  class="form-control" placeholder="Message" required></textarea>
+                            <input type="submit" class="form-control submit inverted" value="SEND MESSAGE">
+                        </form>
+                    </aside>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer-divide">
+            <!-- loaded with js from /shared-html/footer.html -->
+        </footer>
+        <script src="js/common.js"></script>
+        <script src="js/contact.js"></script>
+    </body>
+</html>
